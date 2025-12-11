@@ -8,7 +8,7 @@ using UnityEngine;
 
 namespace Assets.Mes_trucs.Scènes.anmation
 {
-    internal class Ballerine
+    public class Ballerine
     {
         public int speed = 7;
         public bool BonneOrdre = false;
@@ -22,12 +22,7 @@ namespace Assets.Mes_trucs.Scènes.anmation
             //transform.position = transform.position + movement;
         }
 
-
-
-
-
-
     }
+    public ballerine {}
 
-public Ballerine
-{ Ballerine* SetStat(high = 0); }
+}
