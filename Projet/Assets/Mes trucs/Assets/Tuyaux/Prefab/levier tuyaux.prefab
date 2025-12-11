@@ -182,6 +182,7 @@ GameObject:
   - component: {fileID: 1285965052427403805}
   - component: {fileID: 6717472214220675713}
   - component: {fileID: 607489514854286441}
+  - component: {fileID: 7004512254304170608}
   m_Layer: 0
   m_Name: ManivelleB_001_Blocking
   m_TagString: Untagged
@@ -282,7 +283,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -301,10 +302,10 @@ HingeJoint:
   m_Axis: {x: 0, y: 0, z: 1}
   m_AutoConfigureConnectedAnchor: 1
   m_ConnectedAnchor: {x: 0, y: 0, z: 0}
-  m_UseSpring: 0
+  m_UseSpring: 1
   m_Spring:
-    spring: 0
-    damper: 0
+    spring: 5
+    damper: 1
     targetPosition: 0
   m_UseMotor: 0
   m_Motor:
@@ -315,8 +316,8 @@ HingeJoint:
   m_ExtendedLimits: 0
   m_UseAcceleration: 0
   m_Limits:
-    min: -54.58689
-    max: 128.39102
+    min: -58.711735
+    max: 106.68726
     bounciness: 0
     bounceMinVelocity: 0.2
     contactDistance: 0
@@ -406,7 +407,7 @@ MonoBehaviour:
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 0.15
-  m_MovementType: 2
+  m_MovementType: 0
   m_PredictedVisualsTransform: {fileID: 0}
   m_VelocityDamping: 1
   m_VelocityScale: 1
@@ -453,6 +454,27 @@ MonoBehaviour:
   m_LimitAngularVelocity: 0
   m_MaxLinearVelocityDelta: 10
   m_MaxAngularVelocityDelta: 20
+--- !u!65 &7004512254304170608
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2875464139563858425}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.00048749408, y: 0.0027494845, z: 0.0007230371}
+  m_Center: {x: 1.455192e-11, y: 0.0011931171, z: 0.0000008835341}
 --- !u!1 &3133569834283813863
 GameObject:
   m_ObjectHideFlags: 0
@@ -641,7 +663,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7968495809130959951}
   m_Layer: 0
-  m_Name: levier
+  m_Name: levier tuyaux
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
