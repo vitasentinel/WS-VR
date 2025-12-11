@@ -19,6 +19,7 @@ public class verifTuyaux : MonoBehaviour
 
         if (nb_true == RotateTuyaux.Count)
         {
+            // integrer la recup du morceau de componium
             Debug.Log("you win");
         }
     }
