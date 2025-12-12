@@ -1,10 +1,11 @@
 using System;
 using NUnit.Framework.Constraints;
 using UnityEngine;
-
+using System.Collections;
 public class Verifpos : MonoBehaviour
 {
     public GameObject ballerine;
+    public Animator animator;
     public bool pos1 = false;
     public bool pos2 = false;
     public bool pos3 = false;
@@ -63,7 +64,16 @@ public class Verifpos : MonoBehaviour
     {
         if (pos1 && pos2 && pos3 && pos4 && pos5)
         {
-            ballerine.SetActive(false);
+            animator.SetBool("bonne_ordre", true);
+            StartCoroutine(Macoroutine());
+
         }
+    }
+    
+    
+    public IEnumerator Macoroutine()
+    {
+        yield return new WaitForSeconds(5f);
+        ballerine.SetActive(false);
     }
 }
