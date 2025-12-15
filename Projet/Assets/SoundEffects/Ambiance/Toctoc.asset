@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1233149941 &169425287922418144
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DogBackground (RANDOM)_{169425287922418144}
+  m_AudioClip: {fileID: 8300000, guid: 7139505da152cbc4988aed5cd0677d8a, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &2118823341037651397
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Laugh (RANDOM)_{2118823341037651397}
+  m_AudioClip: {fileID: 8300000, guid: bceaaf8766c338c4691d46bdead28530, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &2351375363618583395
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Toctoc2 (RANDOM)_{2351375363618583395}
+  m_AudioClip: {fileID: 8300000, guid: b606fbe00a94ebc4886051ffe8e42970, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &5509056168125267655
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Toctoc1 (RANDOM)_{5509056168125267655}
+  m_AudioClip: {fileID: 8300000, guid: 45b82390cc9f93d43a567bd634edebdd, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1307931743 &6418180475301049370
+AudioRandomContainer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Toctoc
+  m_Volume: -0.5
+  m_Pitch: 0
+  m_AutomaticTriggerTime: 15
+  m_LoopCount: 1
+  m_VolumeRandomizationRange: {x: -80, y: 0}
+  m_PitchRandomizationRange: {x: 0, y: 0}
+  m_AutomaticTriggerTimeRandomizationRange: {x: -20, y: 20}
+  m_LoopCountRandomizationRange: {x: 0, y: 0}
+  m_Elements:
+  - {fileID: 5509056168125267655}
+  - {fileID: 2351375363618583395}
+  - {fileID: 8116378570358989029}
+  - {fileID: 169425287922418144}
+  - {fileID: 2118823341037651397}
+  m_AvoidRepeatingLast: 0
+  m_PlaybackMode: 2
+  m_TriggerMode: 1
+  m_AutomaticTriggerMode: 0
+  m_LoopMode: 0
+  m_VolumeRandomizationEnabled: 1
+  m_PitchRandomizationEnabled: 0
+  m_AutomaticTriggerTimeRandomizationEnabled: 1
+  m_LoopCountRandomizationEnabled: 0
+--- !u!1233149941 &8116378570358989029
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Toctoc3 (RANDOM)_{8116378570358989029}
+  m_AudioClip: {fileID: 8300000, guid: 691b15dcb157a434e8b905809c133f79, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
