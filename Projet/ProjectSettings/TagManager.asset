@@ -10,6 +10,14 @@ TagManager:
   - ana2
   - cible ana1
   - cible ana2
+  - BW
+  - FW
+  - N
+  - pos1
+  - pos2
+  - pos3
+  - pos4
+  - pos5
   layers:
   - Default
   - TransparentFX
