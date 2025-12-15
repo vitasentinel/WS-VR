@@ -12,6 +12,8 @@ public class Raycast : MonoBehaviour
     public bool ana2;
     public bool cible1;
     public bool cible2;
+    public GameObject boite;
+    public GameObject ballerine;
     
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -24,12 +26,12 @@ public class Raycast : MonoBehaviour
     {
         if (ana1 && cible1)
         {
-            Debug.Log("win");
+            boite.SetActive(true);
         }
 
         if (ana2 && cible2)
         {
-            Debug.Log("win2");
+            ballerine.SetActive(true);
         }
     }
     
