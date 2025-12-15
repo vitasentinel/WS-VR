@@ -12,6 +12,14 @@ TagManager:
   - cible ana2
   - Cube_Player
   - BOO
+  - BW
+  - FW
+  - N
+  - pos1
+  - pos2
+  - pos3
+  - pos4
+  - pos5
   layers:
   - Default
   - TransparentFX
