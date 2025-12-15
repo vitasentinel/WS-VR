@@ -20,6 +20,34 @@ TagManager:
   - pos3
   - pos4
   - pos5
+  - QDSUIBackplateGradient
+  - QDSUIToggleBorderlessButton
+  - QDSUIToggleButton
+  - QDSUIToggleSwitch
+  - QDSUITooltip
+  - QDSUISharedThemeColor
+  - QDSUIAccentColor
+  - QDSUIBorderlessButton
+  - QDSUISecondaryButton
+  - QDSUIIcon
+  - QDSUITextSecondaryColor
+  - QDSUISection
+  - Locomotion
+  - PassThroughButton
+  - LocoButton
+  - LocoText
+  - PassThrough
+  - SamplesInfoPanel
+  - QDSUIDestructiveButton
+  - QDSUIPrimaryButton
+  - QDSUITextInvertedColor
+  - QDSUITextSecondaryInvertedColor
+  - QDSUIToggleCheckboxRadio
+  - QDSUITextInputField
+  - Book1
+  - Book2
+  - Book3
+  - Book4
   layers:
   - Default
   - TransparentFX
@@ -27,7 +55,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - PostProcessing
   - 
   - 
   - 
