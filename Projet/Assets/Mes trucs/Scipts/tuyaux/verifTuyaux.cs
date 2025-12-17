@@ -9,8 +9,13 @@ public class verifTuyaux : MonoBehaviour
     public AudioSource source;
     public GameObject cage;
     public Vector3 targetPos;
-    
 
+    void Start()
+    {
+        targetPos = cage.transform.position;
+        targetPos.y += 2f;
+    }
+    
     public void CheckRotateTuyaux()
     {
         foreach (var tuyaux in RotateTuyaux)

@@ -5,6 +5,7 @@ using System.Collections;
 public class Verifpos : MonoBehaviour
 {
     public GameObject ballerine;
+    public GameObject componium;
     public Animator animator;
     public bool pos1 = false;
     public bool pos2 = false;
@@ -70,6 +71,7 @@ public class Verifpos : MonoBehaviour
             audio.clip = clip;
             animator.SetBool("bonne_ordre", true);
             StartCoroutine(Macoroutine());
+            audio.loop = false;
             audio.Play();
         }
     }
@@ -79,5 +81,6 @@ public class Verifpos : MonoBehaviour
     {
         yield return new WaitForSeconds(5f);
         ballerine.SetActive(false);
+        componium.SetActive(true);
     }
 }

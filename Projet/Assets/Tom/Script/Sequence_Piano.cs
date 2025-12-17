@@ -7,6 +7,7 @@ public class Sequence_Piano : MonoBehaviour
 {
     public string sequence = "FaRéRéLaDoLaMiDo";
     public List<string> noteJoue = new List<string>();
+    public GameObject triggerFin;
 
     private void Update()
     {
@@ -15,7 +16,7 @@ public class Sequence_Piano : MonoBehaviour
             string seq = string.Join("", noteJoue);
             if (seq == sequence)
             {
-                Debug.Log("you win");
+                triggerFin.SetActive(true);
             }
             else
             {

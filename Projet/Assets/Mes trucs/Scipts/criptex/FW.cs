@@ -3,7 +3,9 @@ using UnityEngine;
 public class FW : MonoBehaviour
 {
     public HingeJoint hinge;
+    public HingeJoint hinge2;
     public JointMotor motor;
+    public JointMotor motor2;
     public AudioSource roue;
     public AudioSource levier;
 
@@ -18,8 +20,14 @@ public class FW : MonoBehaviour
             motor.force = 500f;          // puissance élevée
             motor.targetVelocity = -25f;  // vitesse positive = tourne dans un sens
             motor.freeSpin = false;
+            
+            motor2 = hinge.motor;
+            motor2.force = 500f;          // puissance élevée
+            motor2.targetVelocity = -25f;  // vitesse positive = tourne dans un sens
+            motor2.freeSpin = false;
 
             hinge.motor = motor;
+            hinge2.motor = motor2;
             roue.Play();
             levier.Play();
         }
@@ -28,6 +36,8 @@ public class FW : MonoBehaviour
     void OnTriggerExit(Collider other)
     {
         hinge.useMotor = false;
+        hinge2.useMotor = false;
+        roue.Stop();
 
     }
 }

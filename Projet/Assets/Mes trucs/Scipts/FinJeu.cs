@@ -19,6 +19,7 @@ public class FinJeu : MonoBehaviour
             manetteDroite.SetActive(false);
             player.transform.position = Vector3.Slerp(player.transform.position, targetpos, Time.deltaTime * 2f);
             FadeToWhite();
+            Application.Quit();
             
         }
     }
