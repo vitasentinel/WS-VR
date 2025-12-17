@@ -9,8 +9,8 @@ EditorBuildSettings:
     path: "Assets/Mes trucs/Sc\xE8nes/DebutJeu.unity"
     guid: 88c381f504b302d4a96f78d8b8ed4a50
   - enabled: 1
-    path: "Assets/Mes trucs/Sc\xE8nes/Victor.unity"
-    guid: e4cdb16cce72515448086bef095beef6
+    path: "Assets/Mes trucs/Sc\xE8nes/Build.unity"
+    guid: b4a388bcf90288444a58a666581bb853
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260, type: 2}
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: dc5a169419fa04987b057f65238cf3ba, type: 2}

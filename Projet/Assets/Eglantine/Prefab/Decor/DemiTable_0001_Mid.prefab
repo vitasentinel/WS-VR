@@ -48,6 +48,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 49e597014c5bbb449b3ec339cfb48cd3, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: a948d4a309a32ec4588a216881652d9d, type: 2}
     - target: {fileID: 919132149155446097, guid: 49e597014c5bbb449b3ec339cfb48cd3, type: 3}
       propertyPath: m_Name
       value: DemiTable_0001_Mid

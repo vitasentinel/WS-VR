@@ -10,35 +10,35 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 6d5525f35cf5bb44aa3c116f6ba05dae, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -19.543339
+      value: -5.5638394
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6d5525f35cf5bb44aa3c116f6ba05dae, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.00013700161
+      value: 0.932
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6d5525f35cf5bb44aa3c116f6ba05dae, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 24.666588
+      value: -0.14495914
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6d5525f35cf5bb44aa3c116f6ba05dae, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7071067
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6d5525f35cf5bb44aa3c116f6ba05dae, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6d5525f35cf5bb44aa3c116f6ba05dae, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6d5525f35cf5bb44aa3c116f6ba05dae, type: 3}
-      propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6d5525f35cf5bb44aa3c116f6ba05dae, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7069834
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6d5525f35cf5bb44aa3c116f6ba05dae, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7072302
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6d5525f35cf5bb44aa3c116f6ba05dae, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: -89.98
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6d5525f35cf5bb44aa3c116f6ba05dae, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -46,11 +46,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6d5525f35cf5bb44aa3c116f6ba05dae, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 180
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6d5525f35cf5bb44aa3c116f6ba05dae, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: bda00d493f553a54c9515cde5c6a93dd, type: 2}
     - target: {fileID: 919132149155446097, guid: 6d5525f35cf5bb44aa3c116f6ba05dae, type: 3}
       propertyPath: m_Name
       value: BallerineB_0001_LOW
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6d5525f35cf5bb44aa3c116f6ba05dae, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

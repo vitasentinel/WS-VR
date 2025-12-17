@@ -1720,7 +1720,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef14324b11d07e64cb6439a43b9bec27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::debutJeu
-  sceneName: Victor
+  sceneName: Build
 --- !u!64 &2096723390
 MeshCollider:
   m_ObjectHideFlags: 0

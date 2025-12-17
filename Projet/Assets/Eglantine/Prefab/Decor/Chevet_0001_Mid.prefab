@@ -48,10 +48,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2125315049226897937, guid: 6fdb5ca60fc764e41b2da0969659af3f, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 3a4fe64dc75e4134b8d10322e7befd4f, type: 2}
+    - target: {fileID: -1572701494986479080, guid: 6fdb5ca60fc764e41b2da0969659af3f, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 3a4fe64dc75e4134b8d10322e7befd4f, type: 2}
     - target: {fileID: 919132149155446097, guid: 6fdb5ca60fc764e41b2da0969659af3f, type: 3}
       propertyPath: m_Name
-      value: Chevet_0001_Mid 1
+      value: Chevet_0001_Mid
       objectReference: {fileID: 0}
+    - target: {fileID: 9011446889652022113, guid: 6fdb5ca60fc764e41b2da0969659af3f, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 3a4fe64dc75e4134b8d10322e7befd4f, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

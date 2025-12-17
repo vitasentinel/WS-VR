@@ -48,6 +48,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a0d1d7e803b53bd4494ad698c1f57f7f, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 355dc8f26135b4448a2c065412d01dcd, type: 2}
     - target: {fileID: 919132149155446097, guid: a0d1d7e803b53bd4494ad698c1f57f7f, type: 3}
       propertyPath: m_Name
       value: TuyauxLmovible_0001_Mid
