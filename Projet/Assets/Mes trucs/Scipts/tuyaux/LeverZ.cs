@@ -10,6 +10,9 @@ public class LeverZ : MonoBehaviour
     
     public XRGrabInteractable grabInteractable;
     public List<RotateTuyaux> RotateTuyaux = new List<RotateTuyaux>();
+    public AudioSource source;
+    public verifTuyaux verifTuyaux;
+
     
     void Awake()
     {
@@ -22,6 +25,9 @@ public class LeverZ : MonoBehaviour
         foreach (var tuyaux in RotateTuyaux)
         {
             tuyaux.RotateZ();
+            source.Play();
+            verifTuyaux.CheckRotateTuyaux();
+
         }
     }
     

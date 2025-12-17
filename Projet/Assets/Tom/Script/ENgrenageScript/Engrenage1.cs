@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class Engrenage1 : MonoBehaviour
 {
+    [SerializeField] private BoxCollider box;
     [SerializeField] private Transform Snap;
     public float SnapDistance = 10f;
     private bool IsSnapped = false;
@@ -17,7 +18,7 @@ public class Engrenage1 : MonoBehaviour
     {
         if (IsSnapped)
         {
-            return;
+            box.enabled = false;
         }
 
         float distance = Vector3.Distance(transform.position, Snap.position);

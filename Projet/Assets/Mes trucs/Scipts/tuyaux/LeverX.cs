@@ -8,6 +8,8 @@ public class LeverX : MonoBehaviour
 {
     public List<RotateTuyaux> RotateTuyaux = new List<RotateTuyaux>();
     public XRGrabInteractable grabInteractable;
+    public AudioSource source;
+    public verifTuyaux verifTuyaux;
     
     
     void Awake()
@@ -21,6 +23,8 @@ public class LeverX : MonoBehaviour
         foreach (var tuyaux in RotateTuyaux)
         {
             tuyaux.RotateX();
+            source.Play();
+            verifTuyaux.CheckRotateTuyaux();
         }
     }
     
