@@ -14,6 +14,7 @@ public class Raycast : MonoBehaviour
     public bool cible2;
     public GameObject boite;
     public GameObject ballerine;
+    public AudioSource source;
     
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -22,16 +23,26 @@ public class Raycast : MonoBehaviour
         Mask = LayerMask.GetMask("Detectable");
     }
 
-    void Update()
+    public void AnaActivation()
     {
         if (ana1 && cible1)
         {
-            boite.SetActive(true);
+            if (!boite.activeInHierarchy)
+            {
+                boite.SetActive(true);
+                source.Play();
+            }
+            
         }
 
         if (ana2 && cible2)
         {
-            ballerine.SetActive(true);
+            if (ballerine.activeInHierarchy)
+            {
+                ballerine.SetActive(true);
+                source.Play();
+            }
+            
         }
     }
     
@@ -41,21 +52,27 @@ public class Raycast : MonoBehaviour
         if (other.gameObject.CompareTag("ana1"))
         {
             ana1 = true;
-            Debug.Log("bon endroit");
+            AnaActivation();
+            
         }
         else if (other.gameObject.CompareTag("cible ana1"))
         {
             cible1 = true;
-            Debug.Log("cible trouvé");
+            AnaActivation();
+            
         }
 
         if (other.gameObject.CompareTag("ana2"))
         {
             ana2 = true;
+            AnaActivation();
+            
         }
         else if (other.gameObject.CompareTag("cible ana2"))
         {
             cible2 = true;
+            AnaActivation();
+            
         }
     }
 

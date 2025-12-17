@@ -11,6 +11,8 @@ public class Verifpos : MonoBehaviour
     public bool pos3 = false;
     public bool pos4 = false;
     public bool pos5 = false;
+    public AudioSource audio;
+    public AudioClip clip;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -64,9 +66,11 @@ public class Verifpos : MonoBehaviour
     {
         if (pos1 && pos2 && pos3 && pos4 && pos5)
         {
+            audio.Stop();
+            audio.clip = clip;
             animator.SetBool("bonne_ordre", true);
             StartCoroutine(Macoroutine());
-
+            audio.Play();
         }
     }
     

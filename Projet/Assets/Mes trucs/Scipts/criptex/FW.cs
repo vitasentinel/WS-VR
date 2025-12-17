@@ -4,6 +4,8 @@ public class FW : MonoBehaviour
 {
     public HingeJoint hinge;
     public JointMotor motor;
+    public AudioSource roue;
+    public AudioSource levier;
 
     
     void OnTriggerEnter(Collider other)
@@ -18,6 +20,8 @@ public class FW : MonoBehaviour
             motor.freeSpin = false;
 
             hinge.motor = motor;
+            roue.Play();
+            levier.Play();
         }
     }
 

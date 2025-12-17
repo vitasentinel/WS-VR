@@ -5,8 +5,13 @@ public class verifTuyaux : MonoBehaviour
 {
     public List<RotateTuyaux> RotateTuyaux = new List<RotateTuyaux>();
     public int nb_true;
+    public int count;
+    public AudioSource source;
+    public GameObject cage;
+    public Vector3 targetPos;
+    
 
-    void CheckRotateTuyaux()
+    public void CheckRotateTuyaux()
     {
         foreach (var tuyaux in RotateTuyaux)
         {
@@ -17,17 +22,12 @@ public class verifTuyaux : MonoBehaviour
             }
         }
 
-        if (nb_true == RotateTuyaux.Count)
+        if (nb_true == RotateTuyaux.Count && count == 0)
         {
-            // integrer la recup du morceau de componium
-            Debug.Log("you win");
+            source.Play();
+            cage.transform.position = Vector3.Slerp(cage.transform.position, targetPos, 0.5f);
+            count = 1;
         }
-    }
-
-
-    void Update()
-    {
-        CheckRotateTuyaux();
     }
     
     

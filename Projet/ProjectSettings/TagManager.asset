@@ -24,6 +24,7 @@ TagManager:
   - Book2
   - Book3
   - Book4
+  - main
   layers:
   - Default
   - TransparentFX
@@ -36,9 +37,9 @@ TagManager:
   - 
   - 
   - Detectable
-  - 
-  - 
-  - 
+  - componium1
+  - componium2
+  - componium3
   - 
   - 
   - 

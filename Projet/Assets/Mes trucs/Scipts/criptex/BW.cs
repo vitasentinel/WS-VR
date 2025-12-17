@@ -4,6 +4,8 @@ public class BW : MonoBehaviour
 {
     public HingeJoint hinge;
     public JointMotor motor;
+    public AudioSource roue;
+    public AudioSource levier;
 
     
     void OnTriggerEnter(Collider other)
@@ -16,7 +18,8 @@ public class BW : MonoBehaviour
             motor.force = 500f;          // puissance élevée
             motor.targetVelocity = 25f;  // vitesse positive = tourne dans un sens
             motor.freeSpin = false;
-
+            roue.Play();
+            levier.Play();
             hinge.motor = motor;
         }
     }
