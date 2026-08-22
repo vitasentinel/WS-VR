@@ -17,11 +17,11 @@ public class Touches : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("main"))
-        {
-            piano.noteJoue.Add(Note);
-            source.Play();
-        }
+        piano.noteJoue.Add(Note);
+        source.Play();
+        
+        
+        
     }
     
 }

@@ -7,7 +7,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 public class LeverX : MonoBehaviour
 {
     public List<RotateTuyaux> RotateTuyaux = new List<RotateTuyaux>();
-    public XRGrabInteractable grabInteractable;
+    public XRSimpleInteractable SimpleInteractable;
     public AudioSource source;
     public verifTuyaux verifTuyaux;
     
@@ -15,7 +15,7 @@ public class LeverX : MonoBehaviour
     void Awake()
     {
         // Abonnement aux événements
-        grabInteractable.selectEntered.AddListener(OnGrabbed);
+        SimpleInteractable.selectEntered.AddListener(OnGrabbed);
     }
     
     void OnGrabbed(SelectEnterEventArgs args)
